@@ -3,9 +3,101 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{5D3A0A94-1750-475D-8395-5550D8EC374E}"
+	ProjectSection(SolutionItems) = preProject
+		Persistence.Readme.txt = Persistence.Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EFCore", "EFCore", "{F4B6CA3A-8520-4896-9777-1C63BA3A2542}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapper", "Dapper", "{13286EAC-A328-46C0-A0A8-34A997072011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDb", "MongoDb", "{9DDCA3C7-A094-42B7-AA22-93FF9D15A299}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.EFCore", "NbuyGetirEFCore\NbuyGetir.EFCore.csproj", "{6B80BF01-4D58-4060-8C48-D6BDC67330B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A39EBBB8-2D2C-41B6-897E-335BF49EA8AE}"
+	ProjectSection(SolutionItems) = preProject
+		Domain.Readme.txt = Domain.Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.Domain", "NbuyGetir.Domain\NbuyGetir.Domain.csproj", "{C6866C92-0268-4312-91DC-48AF5741DEE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A6317619-C790-4EB2-A32F-A7123C0543FB}"
+	ProjectSection(SolutionItems) = preProject
+		Infrastructure.Readme.txt = Infrastructure.Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.Infrastructure", "NbuyGetir.Infrastructure\NbuyGetir.Infrastructure.csproj", "{1C52C723-4B6A-4B14-A606-1B1865480A54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{28C9A3B0-F2E9-458D-B123-8334C0B2C4AA}"
+	ProjectSection(SolutionItems) = preProject
+		Application.Readme.txt = Application.Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbuyGetir.Application", "NbuyGetir.Application\NbuyGetir.Application.csproj", "{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3F5FE5BA-4564-4870-B354-510B6E139105}"
+	ProjectSection(SolutionItems) = preProject
+		Presentation.Readme.txt = Presentation.Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7AE35ACB-421E-4E11-9FB0-ACF09920E0FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{5EE3B935-A9FE-4933-AF94-A0F9E60C687A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile", "Mobile", "{FCC5D3E7-703B-4EEB-8675-08DD0AA236A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbuyGetir.API", "NbuyGetir.API\NbuyGetir.API.csproj", "{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbuyGetir.Core", "NbuyGetir.Core\NbuyGetir.Core.csproj", "{01CCA69D-F30B-4719-9274-1D6475FDCE13}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B80BF01-4D58-4060-8C48-D6BDC67330B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B80BF01-4D58-4060-8C48-D6BDC67330B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B80BF01-4D58-4060-8C48-D6BDC67330B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B80BF01-4D58-4060-8C48-D6BDC67330B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6866C92-0268-4312-91DC-48AF5741DEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6866C92-0268-4312-91DC-48AF5741DEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6866C92-0268-4312-91DC-48AF5741DEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6866C92-0268-4312-91DC-48AF5741DEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C52C723-4B6A-4B14-A606-1B1865480A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C52C723-4B6A-4B14-A606-1B1865480A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C52C723-4B6A-4B14-A606-1B1865480A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C52C723-4B6A-4B14-A606-1B1865480A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CCA69D-F30B-4719-9274-1D6475FDCE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CCA69D-F30B-4719-9274-1D6475FDCE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CCA69D-F30B-4719-9274-1D6475FDCE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CCA69D-F30B-4719-9274-1D6475FDCE13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4B6CA3A-8520-4896-9777-1C63BA3A2542} = {5D3A0A94-1750-475D-8395-5550D8EC374E}
+		{13286EAC-A328-46C0-A0A8-34A997072011} = {5D3A0A94-1750-475D-8395-5550D8EC374E}
+		{9DDCA3C7-A094-42B7-AA22-93FF9D15A299} = {5D3A0A94-1750-475D-8395-5550D8EC374E}
+		{6B80BF01-4D58-4060-8C48-D6BDC67330B8} = {F4B6CA3A-8520-4896-9777-1C63BA3A2542}
+		{C6866C92-0268-4312-91DC-48AF5741DEE4} = {A39EBBB8-2D2C-41B6-897E-335BF49EA8AE}
+		{1C52C723-4B6A-4B14-A606-1B1865480A54} = {A6317619-C790-4EB2-A32F-A7123C0543FB}
+		{28B45BE0-2F9E-49EE-9083-ED13BA8ADB54} = {28C9A3B0-F2E9-458D-B123-8334C0B2C4AA}
+		{7AE35ACB-421E-4E11-9FB0-ACF09920E0FA} = {3F5FE5BA-4564-4870-B354-510B6E139105}
+		{5EE3B935-A9FE-4933-AF94-A0F9E60C687A} = {3F5FE5BA-4564-4870-B354-510B6E139105}
+		{FCC5D3E7-703B-4EEB-8675-08DD0AA236A0} = {3F5FE5BA-4564-4870-B354-510B6E139105}
+		{28631C2D-5EA2-4DE0-B19C-1B4BF71BE780} = {7AE35ACB-421E-4E11-9FB0-ACF09920E0FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4CCA194-012C-4DD0-A1CA-733B6D3084CF}

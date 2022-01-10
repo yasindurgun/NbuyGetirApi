@@ -1,0 +1,5 @@
+Bu katman controllerdan gelen iþ isteklerinin koordinasyonunu yönetimini yapan katman olup, bu katmandaki
+application servisler ile uygulamýnýn diðer katmanlarýndaki servisler bu katman içinde birbirleriyle
+haberleþir.
+Yani bu katmanýn görevi gelen iþ istekerinin (use-case) kullaným durumlarýna göre arka planda ne tür iþlemlerin
+çaðrýldýðýný koordine etmektir.

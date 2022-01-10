@@ -1,0 +1,2 @@
+﻿//Bu katman diğer tüm katmanları besleyen abstract class, base class, interfaces gibi ana şablonların
+uygulandığı bir katman olup, tüm katmanlar bu katmandan faydalanabilir.
