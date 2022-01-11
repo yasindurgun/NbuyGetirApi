@@ -1,3 +1,8 @@
-Bu katmnda farklý teknolojilerle uygulama geliþtiririz. Mobil web desktop api microservices gibi farklý uygulama
-teknolojiler bu katmanda yer alýr. Biz .net core web api ile restful servis geliþtireceðiz. Bu katmanda 
-Bu katmanda .net core mvc tasarým deseni kullanýlacaktýr ve uygulamaya ait verþler json formatýnda front end uygulamasý için tasarlanacaktýr.
+// Bu katmanda farklý teknolojiler ile uygulama geliþtiririz. Mobile, Web, Desktop, API, SOAP Services,
+Micro Services gibi farklý uygulama teknolojileri bu katmanda yer alýr. 
+Biz bu katmanda Net Core Web API ile restful service geliþtireceðiz.
+
+// Bu katmanda Net Core MVC tasarým deseni kullanýlacaktýr. 
+Ve uygulamaya ait veriler json formatýnda Front end uygulmasý için tasarlanacaktýr.
+
+

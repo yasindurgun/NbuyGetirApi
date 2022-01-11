@@ -1,11 +1,12 @@
 Domain layer uygulamadaki Entitylerin, Domain Servicelerin, Eventlerin ve Repository Interfacelerinin bulunduðu
 katmandýr. Uygulamanýn en önemli katmaný olup, Tüm diðer katmanlar bu katmandan beslenir. Bu katmandaki
-sýnýflarý kullanabilir. Bu katman "Core" katmaný dýþýnda hiçbir katmana direk baðlý deðildir.
+sýnýflarý kullanabilir. Bu katman "Core" katmaný dýþýnda hiçbir katmana direkt baðlý deðildir.
 
 Logic iþlemlerini domain servisler üstlenecektir.
 
 //Ayný anda bir sipariþ içerisinde ayný üründen 10 adetten fazla sipariþ verilemesin
 //Belirli bir adet üzerinden tek seferde sipariþ verilemesin
-//Gece 12'den sonraki sipariþler için sipariþler sýraya alýnsýn.
+//Gece 12'den sonraki sipariþler için sipariþler sýraya alýnsýn. Bir sonraki gün dönderim yapýlsýn.
 //Kampanya tarihi son 12 saat kala kampanya sonlanmasý ile alakalý müþterilere mail gönderilsin.
 //Stoktaki ürün adeti kritik ürün eþiðine yani 10 adete düþtüðü anda ilgili ürünlerin satýþlarý kitlensin.
+//Sipariþi oluþtururken stok yeterli mi deðil mi kontrolü yapan bir servis olacak.
