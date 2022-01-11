@@ -4,11 +4,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Caching\" />
-    <Folder Include="Autorization\" />
-    <Folder Include="Notifications\" />
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>

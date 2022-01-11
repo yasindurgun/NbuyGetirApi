@@ -7,14 +7,19 @@ using System.Threading.Tasks;
 
 namespace NbuyGetir.Core.Entities
 {
-    class Entity : IEntity
+    public abstract class Entity : IEntity
     {
+        public string Id { get; set; }
         private List<IDomainEvent> _domainEvents = new List<IDomainEvent>();
         public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents;
 
         public void AddEvents(IDomainEvent @event)
         {
             _domainEvents.Add(@event);
+        }
+        public Entity()
+        {
+            Id = Guid.NewGuid().ToString();
         }
     }
 }
