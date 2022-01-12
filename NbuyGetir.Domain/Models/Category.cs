@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NbuyGetir.Domain.Models
 {
-    public class Category : Entity
+    public class Category : AuditableEntity
     {
         public string Name { get; set; }
         /// <summary>
@@ -21,9 +21,10 @@ namespace NbuyGetir.Domain.Models
         private List<Product> _products = new List<Product>();
         public IReadOnlyCollection<Product> Products => _products;
 
-        public Category(string name, bool isTopLevel)
+        public Category(string name, bool isTopLevel=false)
         {
-
+            SetName(name);
+            IsTopLevel = isTopLevel;
         }
         private void SetName(string name)
         {
@@ -40,7 +41,7 @@ namespace NbuyGetir.Domain.Models
             }
             if (category.IsTopLevel)
             {
-                throw new Exception("Hata");
+                throw new Exception("Top Level kategori başka bir kategori altına atılamaz");
             }
             _subCategories.Add(category);
         }
