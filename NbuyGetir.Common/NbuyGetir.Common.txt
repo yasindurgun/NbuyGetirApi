@@ -1,0 +1,3 @@
+﻿Her uygulamada kullanabileceğimiz yardımcı (helper) dedğimiz yapıları içerisinde barındıran herhangi bir
+teknoloji kaygısı olmayan, bütün katmanlar ile haberleşebilen (cross cutting) bir katmandır.
+Genelde içerisinde string, datetime, configuration gibi bir çok yardımcı metod ve sınıf barındırır.
